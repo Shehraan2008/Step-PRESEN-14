@@ -1,0 +1,38 @@
+body {
+  background-color: #ffffff;
+}
+
+.nes-table tr:nth-child(even) {
+  background-color: #eee;
+}
+.nes-table tr:nth-child(odd) {
+  background-color: #fff;
+}
+.nes-table th {
+  color: white;
+  background-color: #e76e55;
+}
+
+span {
+  color: #419dee;
+}
+
+.content {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+header.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 10;
+  border-bottom: 3px solid #d3d3d3;
+}
+
+footer {
+  text-align: center;
+}
+button {
+  float: right;
+}
